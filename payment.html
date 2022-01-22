@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: rgb(245,245,245);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        }
+    .navbar{
+        height: 120px;
+        width: 100%;
+         position: sticky;
+        top: 0px;
+            
+    }
+    .top{
+        background-color: #F8F9FA;
+        display: flex;
+        align-items: center;
+        
+    }
+    .top>img{
+        padding: 10px;
+        margin-left: 50px;
+    }
+    .top>button{
+        background-color: black;
+        color: white;
+        height: 40px;
+        width: 100px;
+        border: none;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        font-weight: 400;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        justify-content: center;
+    }
+    .bottom{
+        display: flex;
+        color: rgb(108,117,125);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        font-weight: 700;
+        gap: 50px;
+        position: sticky;
+    }
+    .Input {
+    border: none;
+    font-size: 13px;
+    background: #fff;
+    height: 40px;
+    width: 550px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-left: 60px;
+    
+}
+.login{
+    display: flex;
+    margin-left: 200px;
+    gap: 10px;
+}
+.likecart{
+    display: flex;
+    gap: 10px;
+    margin-left: 50px;
+}
+
+.payment{
+    
+    width: 30%;
+    margin: auto;
+    align-items: center;
+    height: 500px;
+}
+.payment>div{
+    margin-bottom: 20px;
+    
+}
+.button{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+}
+.text{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+}
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="top">
+            <img src="https://in.sugarcosmetics.com/desc-images/SUGARLogo1.png" alt="">
+            <input class="Input" placeholder="Try &quot;Liquid Lipstick&quot;" value="">
+            <button> Search</button>
+            <div class="login">
+                <img src="https://in.sugarcosmetics.com/desc-images/person.png" alt="">
+                <a href="signup.html">My Account</a>
+            </div>
+            <div class="likecart">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-shopping-bag"></i>
+                <i class="fas fa-tags"></i>
+            </div>
+        </div>
+        <div class="bottom">
+            <p style="margin-left: 50px;">MAKEUP</p>
+            <p>BRUSHES</p>
+            <p>SKINCARE</p>
+            <p>TRENDING</p>
+            <p>BLOG</p>
+            <p>OFFERS</p>
+
+        </div>
+    </div>
+
+    <div class="payment">
+            <div class="text">
+                <p>Payment Mode : Debit/Credit Card </p>
+            </div>
+            <div>
+            <input type="Number" name="" id="" placeholder="enter card No.">
+            </div>
+            <div>
+            <input type="password" placeholder="CVV">
+            </div>
+            <div>
+                <input type="number/character" placeholder="Card Expiry MM/YY">
+            </div>
+            <div>
+                <input type="text" placeholder="Cardholder Name">
+            </div>
+            <div>
+                <a href="success.html"><button class="button" >Make Payment</button></a>
+            </div>
+        </div>
+</body>
+</html>
